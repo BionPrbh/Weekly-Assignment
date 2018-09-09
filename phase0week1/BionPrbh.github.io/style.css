@@ -1,0 +1,132 @@
+	body{
+		background-color: linear-gradient(-75deg, #4F7EAC, #8FB4D6);
+  		
+	}
+	.backimage{
+		
+	}
+	.headerimage img{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 30% 30%;
+		width: 20%;
+    	height: auto;
+    	margin-top: 100px;
+	}
+	.header{
+		font-family: Arial;
+		font-size: 2;
+		font-weight: bold;
+		text-align: center;
+		color: #737373;
+
+	}
+	.header h4{
+		font-style: italic;
+		font-size: 20px;
+	}
+	.content1{
+		position: relative;
+		margin-left: 530px;
+		margin-right: auto;		
+		font-family: Arial;
+		font-size: 2;
+		font-weight: bold;
+		text-align: left;
+		color: #737373;
+		display: block;
+		width: 50%;
+		margin-top: 60px;
+	}
+	.content1 p{
+		color: #6D6D6D;
+ 		 line-height: 1.3em;
+		 text-align: left];
+ 		 font-size: 18px;
+ 		 width: 90%;
+ 		 font-family: Arial;
+ 		 font-weight: bold;
+ 		 position: relative;
+
+	}
+	.content2 p{
+		color: #6D6D6D;
+ 		 line-height: 1.3em;
+		 text-align: left;
+ 		 font-size: 18px;
+ 		 width: 100%;
+ 		 font-family: Arial;
+ 		 font-weight: bold;
+ 		 position: relative;
+		margin-left: auto;
+		margin-right: auto;	
+		color: #737373;
+		display: block;
+		width: 50%;
+	}
+	ul.gamecontent {
+		color: black;
+  		line-height: 1.3em;
+  		text-align: center;
+  		font-size: 40px;
+  		width: 100%;
+  		font-family: Arial;
+  		font-weight: bold; 
+  		display: inline;
+	}
+	.journeyphoto1{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}
+	.journeyphoto2{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}	
+	.journeyphoto3{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}	
+	.journeyphoto4{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}	
+	.journeyphoto5{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}
+	.journeyphoto6{
+		resize: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		border-radius: 50%;
+		width: 20%;
+    	height: auto;
+	}	
