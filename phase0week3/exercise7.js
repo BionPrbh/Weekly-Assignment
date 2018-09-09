@@ -1,6 +1,6 @@
 function hitungJumlahKata(kalimat) {
-kalimatPerKata = kalimat.split(" ")
-jumlahKata = kalimatPerKata.length
+var kalimatPerKata = kalimat.split(" ")
+var jumlahKata = kalimatPerKata.length
 
 return jumlahKata  // you can only write your code here!
 }

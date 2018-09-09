@@ -2,9 +2,9 @@ function pasanganTerbesar(num) {
   // you can only write your code here!
  var stringNum = num.toString();
  var stringArray = stringNum.split("");
- var temp = ""
- 
-  for (i = 0 ; i < stringArray.length-1; i++){
+ var temp = "";
+ var i = 0;
+  for (i; i < stringArray.length-1; i++){
     if(stringArray[i] == Math.max(...stringNum)){ 
     temp = stringArray[i] + stringArray[i+1];
     }

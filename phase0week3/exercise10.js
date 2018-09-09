@@ -1,24 +1,18 @@
 function perkalianUnik(arr) {
-  // you can only write your code here!
-var tempNum = arr[0]
-var tempStr = []
-// ini untuk mengulang sebanyak jumlah angka yang ada di string//
-for (counter = 0; counter < arr.length; counter++){
-// ini untuk mengkali index 0 dari array tersebut dengan index-index berikutnya//
-  for (index = 1; index < arr.length; index++){
+var tempNum = arr[0];
+var tempStr = [];
+var counter = 0;
+for (counter; counter < arr.length; counter++){
+var index = 1;
+  for (index; index < arr.length; index++){
     tempNum = tempNum * arr[index];
   }
-//ini untuk membagi nilai hasil perkalian seluruh index menggunakan index saat itu//
-  tempNum = tempNum/arr[counter];
-//menambahkan hasil pembagian kedalam sebuah string//
-  tempStr.push(tempNum);
-//untuk mereset nilai tempnum agar bisa dipakai lagi//
-  tempNum = arr[0]
+tempNum = tempNum/arr[counter];
+tempStr.push(tempNum);
+tempNum = arr[0];
 }
-
-return tempStr
+return tempStr;
 }
-
 // TEST CASES
 console.log(perkalianUnik([2, 4, 6])); // [24, 12, 8]
 console.log(perkalianUnik([1, 2, 3, 4, 5])); // [120, 60, 40, 30, 24]

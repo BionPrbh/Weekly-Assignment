@@ -1,7 +1,7 @@
 //palindrom kata
 
 
-function palindrome(kata) {
+function palindrome(kata){
   
   var temp = "";
   var i = kata.length-1;
