@@ -1,25 +1,18 @@
 function checkAB(num) {
-  for (var i = 0; i < num.length; i++) {
-    if (num[i] == 'a') {
-      for (var j = i; j < num.length; j++) {
-        var temp = temp + 1
-        if (temp >= 3 && num[j] == 'b') {
-          return true
-        }
+  // you can only write your code here!
+  for(var i = 0; i<num.length; i++){
+    if(num[i] === 'a'){
+      if(num[i+4] === 'b'){
+        return true
       }
-      temp = 0
-    }
-    else if (num[i] == 'b') {
-      for (var k = i; k < num.length; k++) {
-        var temp = temp + 1
-        if (temp >= 3 && num[k] == 'a') {
-          return true
-        }
+    }else if(num[i] === 'b'){
+      if(num[i+4] === 'a'){
+        return true
       }
+    }else if(i === num.length-3){
+      return false
     }
-    temp = 0
   }
-  return false
 }
 
 // TEST CASES
