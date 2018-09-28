@@ -1,14 +1,11 @@
+function balikKata(input){
 
+  var temp = ""
+  for (var i = input.length-1 ; i >= 0; i--) {
+    temp += input[i]
+  }
+  return temp
+}//output
+// "!dlrow olleh"
 
-function balikString(word){
- var index = word.length-1
- var hasilPembalikkan = ""
- for(index; index >= 0; index--){
-   hasilPembalikkan += word[index]
- }
-
-
-  return hasilPembalikkan
-}
-
-balikString("hello")
+console.log(balikKata("hello world!"))

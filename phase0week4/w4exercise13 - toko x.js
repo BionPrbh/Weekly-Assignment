@@ -43,7 +43,6 @@ function countProfit(shoppers) {
       leftover: (listBarang[j][2]-jumlahPembelian[j]),
       totalProfit: listBarang[j][1]*jumlahPembelian[j]
     }
-    
   hasilAkhir.push(result)
   }
 return hasilAkhir
